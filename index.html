@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>Ajedrez Online</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <!-- Boton "Volver Arriba" -->
+    <div class="btn-volver-arriba" id="btnVolverArriba">
+      <a href="#" class="volver-arriba">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+      </a>
+    </div>
+
+    <!-- Encabezado -->
+    <header>
+      <!-- Versión móvil -->
+      <div class="menu-mobile">
+        <div class="barra">
+          <a href="#" class="logo volver-arriba">
+            <img src="img/logotipo.png" alt="Logo">
+          </a>
+          <a href="#" id="btnMenu">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </a>
+        </div>
+        <nav class="menu-principal">
+          <a href="#" class="volver-arriba">INICIO</a>
+          <a href="#maestros" class="scroll-suave">GRANDES MAESTROS</a>
+          <a href="#historia" class="scroll-historia">HISTORIA</a>
+          <a href="#registro" class="scroll-suave">REGISTRO</a>
+        </nav>
+      </div>
+
+      <!-- Versión escritorio -->
+      <div class="menu-bar-pc">
+
+        <a href="#" class="logo volver-arriba">
+          <img src="img/logotipo.png" alt="Logo">
+        </a>
+
+        <nav class="menu-principal">
+          <a href="#" class="volver-arriba">INICIO</a>
+          <a href="#maestros" class="scroll-suave">GRANDES MAESTROS</a>
+          <a href="#historia" class="scroll-historia">HISTORIA</a>
+          <a href="#registro" class="scroll-suave">REGISTRO</a>
+        </nav>
+
+        <div class="top-redes">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="https://twitter.com/" target="_blank">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+        </div>
+
+      </div>
+    </header>
+
+    <div class="fixed-header" id="fixedHeader">
+      <a href="#"  class="logo volver-arriba">
+        <img src="img/logotipo.png" alt="Logo">
+      </a>
+      <nav class="menu-principal">
+        <a href="#" class="volver-arriba">INICIO</a>
+        <a href="#maestros" class="scroll-suave">GRANDES MAESTROS</a>
+        <a href="#historia" class="scroll-historia">HISTORIA</a>
+        <a href="#registro" class="scroll-suave">REGISTRO</a>
+      </nav>
+      <div class="top-redes">
+        <a href="https://www.facebook.com/" target="_blank">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Main -->
+    <section class="main">
+      <!-- Banner Principal -->
+      <section class="banner-principal">
+        <div class="banner" id="banner"></div>
+        <div class="texto-banner">
+          <h2>Tu sitio online de Ajedrez</h2>
+          <h1>Ajedrez Online</h1>
+          <a href="#maestros" class="scroll-suave">VER GRANDES MAESTROS</a>
+        </div>
+      </section>
+
+      <!-- Proyectos -->
+      <section class="maestros" id="maestros">
+        <div class="contenedor">
+          <div class="titulo-seccion">
+            <h2>Grandes Maestros</h2>
+            <p>Aqui se encuentran los jugadores que ganaron el titulo de Gran Maestro a una edad muy corta</p>
+          </div>
+          <div class="galeria-maestros">
+            <div class="maestro">
+              <img src="img/IvanMorovic.jpg" alt="Ivan Morovic" class="imagen-maestro">
+            </div>
+            <div class="maestro">
+              <img src="img/JoseRaulCapablanca.jpg" alt="Jose Raul Capablanca" class="imagen-maestro">
+            </div>
+            <div class="maestro">
+              <img src="img/MagnusCarlsen.jpg" alt="Magnus Carlsen" class="imagen-maestro">
+            </div>
+            <div class="maestro">
+              <img src="img/ParimarjanNegi.jpg" alt="Parimarjan Negi" class="imagen-maestro">
+            </div>
+            <div class="maestro">
+              <img src="img/PraggnanandhaaRameshbabu.jpeg" alt="Praggnanandhaa Rameshbabu" class="imagen-maestro">
+            </div>
+            <div class="maestro">
+              <img src="img/SergeyKarjakin.jpeg" alt="Sergey Karjakin" class="imagen-maestro">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Acerca de -->
+      <section class="historia" id="historia">
+        <div class="contenedor">
+          <div class="titulo-seccion">
+            <h2>Historia</h2>
+            <p>Aqui encontrarás una breve historia del Ajedrez</p>
+          </div>
+          <div class="texto-acerca-de">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae odit accusantium, incidunt quam, molestias est animi velit ab ullam id voluptatem rem assumenda quisquam voluptas esse, maiores, deserunt laudantium mollitia modi quod deleniti nisi! Repellat labore odio deleniti quos id, nulla quae cupiditate officia, quibusdam iste beatae! Eveniet quo amet doloremque. Veritatis debitis, quas rerum, pariatur quibusdam unde incidunt accusantium nostrum laudantium soluta fugit adipisci ipsa reprehenderit dolor at. Esse repellat est a velit! Magnam dicta quod hic suscipit quis neque ut ab dignissimos aperiam quam inventore odio harum porro in laudantium, natus quae necessitatibus laboriosam rem quisquam minus labore nobis! Sunt, vero nam repellat ut quaerat similique, rerum iusto! Possimus suscipit quia esse deleniti in! Quam sunt, sint animi laudantium quasi, quia consequuntur fugiat aut. Commodi, nemo.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slider -->
+      <section class="contenedor-slider">
+        <div class="slider" id="slider">
+          <div class="slide">
+            <img src="img/slide1.jpeg" alt="Slide">
+          </div>
+          <div class="slide">
+            <img src="img/slide2.jfif" alt="Slide">
+          </div>
+          <div class="slide">
+            <img src="img/slide3.jpeg" alt="Slide">
+          </div>
+          <div class="slide">
+            <img src="img/slide4.jfif" alt="Slide">
+          </div>
+          <div class="slide">
+            <img src="img/slide5.jpg" alt="Slide">
+          </div>
+        </div>
+        <div class="btn-anterior" id="btnAnterior">
+          <i class="fa fa-arrow-left" aria-hidden="true"></i>
+        </div>
+        <div class="btn-siguiente" id="btnSiguiente">
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </div>
+      </section>
+
+      <!-- Registro -->
+      <div class="registro" id="registro" data-parallax="scroll" data-image-src="img/bgParallax.jpg">
+        <div class="contenedor">
+          <div class="contenedor-formulario">
+            <div class="formulario" id="formulario">
+              <h2>Suscribete</h2>
+              <p>Suscribete a nuestro sitio web para recibir actualizaciones y notificaciones</p>
+              <form>
+                <div>
+                  <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+                  <p class="error">Por favor escribe tu nombre</p>
+                </div>
+                <div>
+                  <input type="text" name="apellido" placeholder="Apellido" id="apellido">
+                  <p class="error2">Por favor escribe tu apellido</p>
+                </div>
+                <div>
+                  <input type="email" name="email" placeholder="Correo electrónico" id="email">
+                  <p class="error">Por favor escribe tu correo</p>
+                </div>
+                <div>
+                  <input type="submit" name="enviar" value="Suscribirse">
+                </div>
+              </form>
+            </div>
+
+            <div class="foto">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+      <div class="copy">
+        <p>Todos los derechos reservados</p>
+      </div>
+      <div class="footer-redes">
+        <a href="https://www.facebook.com/" target="_blank">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/stickyHeader.js"></script>
+    <script src="js/scrollSuave.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/validacion.js"></script>
+    <script src="js/menuMobile.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+
+  </body>
+</html>
